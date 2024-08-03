@@ -191,7 +191,7 @@ const App = () => {
                   </p>
                 </p>
                 <div className="flex justify-center md:justify-center items-center">
-                  <a href="/brochure.pdf" download>
+                  <a href="/ILS_EPI_Brochure2020V4.pdf" download>
                     <button className="text-center text-white bg-[#88969A] p-2.5 rounded-lg mt-3.5 mb-5 hover:bg-[#6c7a7e] hover:shadow-lg transition duration-300">
                       Download Brochure{" "}
                       <i className="fa-solid fa-arrow-right"></i>
