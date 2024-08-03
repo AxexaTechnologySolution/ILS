@@ -191,10 +191,12 @@ const App = () => {
                   </p>
                 </p>
                 <div className="flex justify-center md:justify-center items-center">
-                  <button className="text-center text-white bg-[#88969A] p-2.5 rounded-lg mt-3.5 mb-5 hover:bg-[#6c7a7e] hover:shadow-lg transition duration-300">
-                    Download Brochure{" "}
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </button>
+                  <a href="/brochure.pdf" download>
+                    <button className="text-center text-white bg-[#88969A] p-2.5 rounded-lg mt-3.5 mb-5 hover:bg-[#6c7a7e] hover:shadow-lg transition duration-300">
+                      Download Brochure{" "}
+                      <i className="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
