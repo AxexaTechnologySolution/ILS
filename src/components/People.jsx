@@ -142,7 +142,7 @@ const AboutPeople = () => {
             </p>
           </div>
         </div>
-        {/* <div className="animated row">
+        <div className="animated row">
           <div className="col-12 col-sm-12 col-md-6 flex justify-center items-center rounded-md">
             <img
               src={Leaders1}
@@ -212,7 +212,7 @@ const AboutPeople = () => {
               <i className="fab fa-twitter"></i>{" "}
             </p>
           </div>
-        </div> */}
+        </div>
         {/* Help your business code end */}
       </div>
 
