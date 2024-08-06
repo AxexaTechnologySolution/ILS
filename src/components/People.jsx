@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import aboutPeopleImg from "/People_Img.jpg";
 import Leaders1 from "/TeamLeadersImg1.jpg";
 import Leaders2 from "/TeamLeadersImg2.jpg";
+import Profile from "/peopleils.jpg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -65,7 +66,7 @@ const AboutPeople = () => {
         <div className="animated row">
           <div className="col-12 col-sm-12 col-md-6 flex justify-center items-center rounded-md">
             <img
-              src={Leaders1}
+              src={Profile}
               alt="Leader 1 Image"
               className="w-3/4 h-auto lg:p-4 border-none my-3"
             />
@@ -97,11 +98,12 @@ const AboutPeople = () => {
               <i className="fab fa-twitter"></i>{" "}
             </p>
           </div>
+          
         </div>
         <div className="animated row">
           <div className="col-12 col-sm-12 col-md-6 flex justify-center items-center rounded-md">
             <img
-              src={Leaders2}
+              src={Profile}
               alt="Leader 2 Image"
               className="w-3/4 h-auto lg:p-4 border-none my-3"
             />
@@ -145,7 +147,7 @@ const AboutPeople = () => {
         <div className="animated row">
           <div className="col-12 col-sm-12 col-md-6 flex justify-center items-center rounded-md">
             <img
-              src={Leaders1}
+              src={Profile}
               alt="Leader 1 Image"
               className="w-3/4 h-auto lg:p-4 border-none my-3"
             />
@@ -180,7 +182,7 @@ const AboutPeople = () => {
         <div className="animated row">
           <div className="col-12 col-sm-12 col-md-6 flex justify-center items-center rounded-md">
             <img
-              src={Leaders2}
+              src={Profile}
               alt="Leader 2 Image"
               className="w-3/4 h-auto lg:p-4 border-none my-3"
             />
