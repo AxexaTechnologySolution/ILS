@@ -49,10 +49,10 @@ export default function Example() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our client services.{" "}
-              <a href="#" className="font-semibold text-[#007dbd]">
+              {/* <a href="#" className="font-semibold text-[#007dbd]">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="text-center">
@@ -138,18 +138,18 @@ export default function Example() {
       <div className="bg-white py-24 sm:py-32">
         <div className="animated mb-8 flex justify-around">
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            ILC Methadology to  {" "}
-            <a href="#" className="font-semibold text-[#007dbd]">
+            ILC Methadology to  Help Clients{" "}
+            {/* <a href="#" className="font-semibold text-[#007dbd]">
               <span className="absolute inset-0" aria-hidden="true" />
               Help Clients    <span aria-hidden="true">&rarr;</span>
-            </a>
+            </a> */}
           </div>
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            ILC Value  {" "}
-            <a href="#" className="font-semibold text-[#007dbd]">
+            ILC Value  Excellent  {" "}
+            {/* <a href="#" className="font-semibold text-[#007dbd]">
               <span className="absolute inset-0" aria-hidden="true" />
              Excellent<span aria-hidden="true">&rarr;</span>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-10">
