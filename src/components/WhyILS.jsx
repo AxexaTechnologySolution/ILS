@@ -79,7 +79,7 @@ const WhyILS = () => {
           <div className="bg-[#1E2634]" id="carouselItem1">
             <div className="row animated text-center lg:p-20 sm:py-10 py-20">
               <h3 className="text-[#88969A] font-bold text-2xl">
-                The ILS Systems
+                The ILS System
               </h3>
               <p className="text-[#88969A] lg:px-56 md:px-36 mt-2 sm:px-20 px-10">
                 We have developed a structured engagement process, the ILS
