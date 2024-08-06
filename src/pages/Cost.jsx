@@ -1,6 +1,9 @@
 // import { IoIosTimer, IoIosAnalytics } from "react-icons/io";
 import { FaArrowUpShortWide } from "react-icons/fa6";
-import { MdOutlineSupport } from "react-icons/md";
+import { MdOutlineSupport,MdDataSaverOff  } from "react-icons/md"
+import { PiMonitorFill } from "react-icons/pi";
+import { GrChatOption } from "react-icons/gr";
+import { GoReport } from "react-icons/go";;
 import costImg from "/Cost_Processs.jpeg";
 import { RiHandCoinFill } from "react-icons/ri";
 import { IoSpeedometer } from "react-icons/io5";
@@ -16,8 +19,10 @@ import { FaArrowRight } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 import { BsGearFill } from "react-icons/bs";
 import { FaSuitcase } from "react-icons/fa";
-import { FaTruck, FaLaptop, FaTools, FaCreditCard } from "react-icons/fa";
+import { FaTruck, FaLaptop, FaTools, FaCreditCard ,FaDatabase } from "react-icons/fa";
 import { FaIndustry, FaDollarSign, FaChartPie, FaLightbulb, FaWarehouse, FaBoxes, FaPenNib, FaUsers } from 'react-icons/fa';
+import { SlEnvolopeLetter } from "react-icons/sl";
+
 
 import { IoIosWater, IoIosHammer } from "react-icons/io";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -323,15 +328,15 @@ const Cost = () => {
           </div>
         </div>
         {/* Timeline Content End */}
-        <div className="anime">
+       {/* <div className="anime">
           <h3 className=" text-center text-black font-bold my-lg-6   my-5 text-xl  md:text-xl lg:text-xl xl:text-3xl xxl:text-3xl ">
             ILS Cost Containment Process Flow
           </h3>
-          {/* <div className="animated container flex items-center justify-center">
+          <div className="animated container flex items-center justify-center">
               <img src={flow} alt="" className="lg:w-10/12" />
-            </div> */}
+              </div>  
           <div className="mx-10 md:mx-auto md:px-40">
-            {/* <h1 className="text-3xl font-bold mb-8">Marquee with 6 Cards</h1> */}
+            <h1 className="text-3xl font-bold mb-8">Marquee with 6 Cards</h1>  
             <Marquee gradient={false}>
               <Card
                 number={1}
@@ -354,7 +359,83 @@ const Cost = () => {
             </Marquee>
           </div>
   
+        </div>*/}
+        {/* caurosel content alternate start */}
+      <div className="bg-slate-50 md:my-10 lg:my-10 my-5">
+          <div className="container-lg container-fluid md:px-20 lg:px-30 xl-px-30 py-10 xxl:pb-20  xxl:pt-5 md:pb-20  md:pt-5  lg:pb-20  lg:pt-5  xl:pb-20  xl:pt-5">
+            <h3 className="text-black text-center font-bold my-4 text-xl  md:text-xl lg:text-xl xl:text-3xl xxl:text-3xl">
+            ILS Cost Containment Process Flow
+            </h3>
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <IoIosPaper className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0">Introduce ILS Cost Containment and Preliminary Assessment</p>
+                  {/* <p className="text-md text-center">19%</p> */}
+                </div>
+              </div>
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <SlEnvolopeLetter  className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0">Present Preliminary Savings Report and execute Client Engagement Letter</p>
+                  {/* <p>18%</p> */}
+                </div>
+              </div>
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <FaDatabase  className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0"> Data Collection (Require LoA if data gathered from supplier)</p>
+                  {/* <p>16%</p> */}
+                </div>
+              </div>
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <IoIosPeople className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0">Stakeholder Meeting</p>
+                  {/* <p>18%</p> */}
+                </div>
+              </div>
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <MdDataSaverOff  className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0">Data Analysis</p>
+                  {/* <p>10%</p> */}
+                </div>
+              </div>
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <IoIosWater className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0">Baseline Report</p>
+                  {/* <p>17%</p> */}
+                </div>
+              </div>
+
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <GoReport  className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0">RFP (except for cell phones)</p>
+                  {/* <p>15%</p> */}
+                </div>
+              </div>
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <GrChatOption  className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0">Recommendation / Options Report</p>
+                  {/* <p>17%</p> */}
+                </div>
+              </div>
+              <div className="animated col py-3">
+                <div className="bg-white rounded-md shadow p-4 text-center square-card d-flex flex-column justify-content-center align-items-center">
+                  <PiMonitorFill  className="w-16 h-16 mb-2 text-[#007dbd]" />
+                  <p className="text-md mb-0">Implementation and Monitoring</p>
+                  {/* <p>17%</p> */}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        {/* caurosel content alternate End */}
+
       </div>
       <div className="bg-[#1E2634] md:my-10 lg:my-10 my-5 lg:px-20 xl:px-20 md:py-16 px-4 py-5">
         <div className="text-[#48baf4] text-center md:mx-10 lg:mx-60 ">
@@ -484,7 +565,7 @@ const Cost = () => {
             <div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-[#007dbd] shadow-lg shadow-teal-500/40">
               <BsCardList className="h-6 w-6 text-white" />
             </div>
-            <p className="text-darken mb-3 text-xl font-medium lg:px-14">RFP</p>
+            <p className="text-darken mb-3 text-xl font-medium lg:px-14">Go to Market</p>
             <content className="px-4 text-gray-500">
               Requests for Proposals (RFP) are sent to incumbent suppliers and
               ILS approved suppliers. Responses from suppliers are analyzed and
