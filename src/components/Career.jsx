@@ -46,15 +46,7 @@ export default function Example() {
     <div className="pt-14">
       <div className="  px-6 lg:px-8">
         <div className="mx-auto max-w-2xl pt-10 pb-5 sm:pt-10  lg:pt-16 ">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our client services.{" "}
-              {/* <a href="#" className="font-semibold text-[#007dbd]">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a> */}
-            </div>
-          </div>
+          
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               ILS Represents the Future of Work
@@ -136,23 +128,7 @@ export default function Example() {
         </div>
       </div>
       <div className="bg-white py-24 sm:py-32">
-        <div className="animated mb-8 flex justify-around">
-          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            ILC Methadology to  Help Clients{" "}
-            {/* <a href="#" className="font-semibold text-[#007dbd]">
-              <span className="absolute inset-0" aria-hidden="true" />
-              Help Clients    <span aria-hidden="true">&rarr;</span>
-            </a> */}
-          </div>
-          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            ILC Value  Excellent  {" "}
-            {/* <a href="#" className="font-semibold text-[#007dbd]">
-              <span className="absolute inset-0" aria-hidden="true" />
-             Excellent<span aria-hidden="true">&rarr;</span>
-            </a> */}
-          </div>
-        </div>
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-10">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-8">
           <dl className="animated grid grid-cols-1 gap-x-8 gap-y-16 text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
             {stats.map((stat) => (
               <div
